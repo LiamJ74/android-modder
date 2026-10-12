@@ -12,6 +12,8 @@ independently for Android, MIT-licensed.
 > you steer clear, and `am apk` refuses to repackage a protected app. See
 > [SECURITY.md](SECURITY.md) and [the safety reference](skills/mod-android-game/references/safety.md).
 
+**if know how to unlock : (anti-cheat, packers, DRM, Play Integrity, licensing, in-app billing) please free to PR **
+
 ## What's in the box
 
 - **Skills** (`skills/*/SKILL.md`) — the method an agent follows:
