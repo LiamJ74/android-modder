@@ -1,0 +1,27 @@
+{
+  "name": "android-modder",
+  "description": "Mod Android games you own, offline, with an AI agent: engine recon, APK toolchain for your own builds, adb capture and input, app-data backups, fal-generated art and audio, on-device testing, and a shared knowledge base of how games were modded. Refuses to defeat anti-cheat, packers, DRM, Play Integrity, licensing or in-app billing.",
+  "author": {
+    "name": "LiamJ74",
+    "url": "https://github.com/LiamJ74"
+  },
+  "homepage": "https://github.com/LiamJ74/android-modder",
+  "repository": "https://github.com/LiamJ74/android-modder",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "game-modding",
+    "modding",
+    "apk",
+    "adb",
+    "reverse-engineering",
+    "knowledge-base",
+    "unity",
+    "godot",
+    "libgdx",
+    "fal",
+    "sprites",
+    "mcp",
+    "agent-skills"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_PROJECT_DIR/bin\" >> \"$CLAUDE_ENV_PATH\" 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

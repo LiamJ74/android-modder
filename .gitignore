@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Never commit working material or game files
+*.apk
+*.apks
+*.xapk
+*.apkm
+*.obb
+*.dex
+*_src/
+*-decomp/
+work/
+pulled/
+fal_manifest.jsonl
+assets/gen/
+
+# Keystores / secrets
+*.jks
+*.keystore
+*.pem
+*.pk8
+*.p12
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Per-user state
+.android-modder/
+MODLOG.md
+MODDING_PLAN.md

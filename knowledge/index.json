@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Reading and editing Unity PlayerPrefs on Android",
+    "game": "any Unity game you own",
+    "engine": "unity-mono",
+    "route": "config-data",
+    "status": "working",
+    "date": "2026-10-12",
+    "file": "techniques/reading-unity-playerprefs-on-android.md"
+  }
+]

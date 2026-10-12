@@ -1,0 +1,16 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "android-modder",
+  "description": "Skills, an APK/adb toolchain, the fal MCP and a shared knowledge base for modding Android games you own with AI agents.",
+  "owner": {
+    "name": "LiamJ74",
+    "url": "https://github.com/LiamJ74"
+  },
+  "plugins": [
+    {
+      "name": "android-modder",
+      "source": "./",
+      "description": "Mod Android games you own, offline, with an AI agent: recon, APK toolchain, adb capture, fal art/audio, on-device testing, and a shared knowledge base."
+    }
+  ]
+}

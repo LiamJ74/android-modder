@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Run the `am` CLI from a clone, setting itself up with uv (https://docs.astral.sh/uv/).
+# Put this dir on PATH (export PATH="$PWD/bin:$PATH") or install the tool:
+#   uv tool install git+https://github.com/LiamJ74/android-modder
+set -euo pipefail
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+if command -v uv >/dev/null 2>&1; then
+  exec uv run --project "$REPO" am "$@"
+elif command -v python3 >/dev/null 2>&1; then
+  exec env PYTHONPATH="$REPO" python3 -m am "$@"
+else
+  echo "am: need uv or python3 on PATH" >&2
+  exit 1
+fi
